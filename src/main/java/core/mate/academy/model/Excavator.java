@@ -5,12 +5,10 @@ package core.mate.academy.model;
  * Do not remove no-args constructor
  */
 public class Excavator extends Machine {
-
     public Excavator() {
         this.setName("Default name");
         this.setColor("Default color");
     }
-
     public Excavator(String name, String color) {
         this.setName(name);
         this.setColor(color);

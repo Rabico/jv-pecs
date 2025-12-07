@@ -42,7 +42,7 @@ public class MachineServiceImpl implements MachineService<Machine> {
     }
 
     @Override
-    public void fill(List<Object> machines, Machine value) {
+    public void fill(List<? super Machine> machines, Machine value) {
 
         final var passedListSize = machines.size();
         machines.clear();
